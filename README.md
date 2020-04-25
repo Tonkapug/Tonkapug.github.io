@@ -1,6 +1,6 @@
 # 709 Builds
 
-Instructions for adding this :
+Instructions for adding this source:
 
 
 <p align="left">
