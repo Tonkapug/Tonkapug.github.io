@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.program.709.notifications" version="1.0"
-       name="[B][COLOR gray]709[/COLOR][/B]Notifications" provider-name="Tonkapug">
+<addon id="plugin.program.709.notify" version="1.0"
+       name="[B][COLOR gray]709[/COLOR][/B]Notify" provider-name="Tonkapug">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.addon.common" optional="true" />
@@ -11,7 +11,7 @@
   <extension point="xbmc.service" library="service.py" start="startup">
   </extension>
   <extension point="xbmc.addon.metadata">
-  	<summary>709 Updates</summary>
+  	<summary>709 Update Notifications</summary>
   	<description>If you wish to not receive these notifications you can unsubscribe within Add-on Settings.</description>
   	<disclaimer>We take no responsibility for any problems this plugin might in any way, form, shape or size cause.</disclaimer>
   	<language>en</language>
