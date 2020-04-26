@@ -6,7 +6,7 @@
 <ul>
     <li>Go to the Kodi File Manager</li>
     <li>Click on "Add source"</li>
-    <li>The path for the source is <code>https://Tonkapug.github.io/709/repo</code> (Give it the name "709Repo")</li>
+    <li>The path for the source is <code>https://tonkapug.github.io/repo</code> (Give it the name "709Repo")</li>
 </ul>  
 
 
