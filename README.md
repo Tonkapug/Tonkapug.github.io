@@ -23,7 +23,7 @@
 ### Instructions for manually installing this repository without source:
 
 <ul>
-    <li>Download <a href="repository.709-1.0.zip">repository.709-1.0.zip</a></li>
+    <li>Download <a href="repository.709-1.0.zip?file=path/<?=$row['repositoy.709-1.0.zip']?>">Download</a></li>
     <li>Go to Kodi Add-Ons to open the Addon Browser, then select "Install from zip file"</li>
     <li>Navigate to where you saved repository.709-1.0.zip and select to install</li>
 </ul>
