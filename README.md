@@ -20,7 +20,7 @@
 
 
 
-### Instructions for manually installing this repository without adding a source:
+### Instructions for installing this repository without adding a source:
 
 <ul>
     <li>Download <a href="repository.709-1.0.zip?file=path/<?=$row['repositoy.709-1.0.zip']?>">repository.709-1.0.zip</a></li>
