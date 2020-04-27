@@ -1,9 +1,14 @@
 1
 |||
 
-                                 Check out our latest Builds!!!
+
+
+            New Build (NetKlix) Added!!!
                                  
-                                 1. Simplicity 1080P & 4K
-                                 2. Foxy 1080P & 4K
-                                 3. Serenity Ultralight 1080P & 4K
-                                 4. Serenity Sports 1080P & 4K
+                   Current Builds
+
+                           1. Simplicity
+                           2. NetKlix
+                           3. Foxy
+                           3. Serenity Sports
+                           4. Serenity Ultralight
