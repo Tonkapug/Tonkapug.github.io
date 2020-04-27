@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.709notify" version="1.0"
+       name="[B][COLOR gray]709[/COLOR][/B]Notify" provider-name="Tonkapug">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.addon.common" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>709 Update Notifications</summary>
+  	<description>If you wish to not receive these notifications you can unsubscribe within Add-on Settings.</description>
+  	<disclaimer>We take no responsibility for any problems this plugin might in any way, form, shape or size cause.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://</forum>
+  	<website>http://</website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>
+
+<addon id="plugin.program.709pair" name="[B][COLOR=gray]709[/COLOR][/B]Pair" version="1.0" provider-name="Tonkapug">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Real-Debrid and Trakt Pairing Utility</summary>
+    <description lang="en">Real-Debrid and Trakt Pairing</description>
+	<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <license>Free!!</license>
+  </extension>
+</addon>
+
+<addon id="plugin.program.709wizard" name="[COLOR gray][B]709[/B][/COLOR]Wizard" version="1.1" provider-name="Tonkapug">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR gray][B]709[/COLOR][/B]Wizard</summary>
+        <description lang="en">Automated Build Installer</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.google.com</source>
+        <news>
+        Tonkapug
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR dodgerblue]Repo[/COLOR][/B]" version="1.0" provider-name="Tonkapug">
+    <extension point="xbmc.addon.repository" name="709 Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Tonkapug/709/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com//Tonkapug/709/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Tonkapug/709/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[B]The[COLOR gray] 709[/COLOR][COLOR dodgerblue]Repo[/COLOR][/B]</summary>
+        <description>709 Repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2019.05.10.3" provider-name="aenema">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="1.0.0" />
+    <import addon="repository.aenemapy" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+     <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+	<summary>A Streamlined Utility Tool for Kodi</summary>
+	<description>No Bloatware, no Nonsense! Just Keep your Kodi sharp and clean with this utility tool... Now with a Custom Wizard.</description>
+    <language></language>
+    <platform>all</platform>
+    <license>The MIT License</license>
+    <forum>-</forum>
+    <source>https://github.com</source>
+  </extension>
+</addon>
+</addons>
