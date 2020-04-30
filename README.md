@@ -11,7 +11,7 @@
 
 
 
-### Instructions for installing this repository via a source:
+### Instructions for installing this repository via the added source:
 
 <ul>
     <li>Go to Kodi Add-Ons to open the Addon Browser, then select "Install from zip file"</li>
@@ -20,7 +20,7 @@
 
 
 
-### Instructions for installing this repository without adding a source:
+### Instructions for installing this repository without a source:
 
 <ul>
     <li>Download <a href="repository.709-1.1.zip?file=path/<?=$row['repositoy.709-1.1.zip']?>">repository.709-1.1.zip</a></li>
