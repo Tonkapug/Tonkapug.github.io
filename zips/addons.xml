@@ -54,7 +54,7 @@
     <extension point="xbmc.service" library="startup.py" start="startup" />
 
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR gray][B]709[/COLOR][/B]Wizard</summary>
+        <summary lang="en">[COLOR gray]709[/COLOR]Wizard</summary>
         <description lang="en">Automated Build Installer</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
