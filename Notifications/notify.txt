@@ -3,12 +3,11 @@
 
 
 
-            New Build (NetKlix) Added!!!
+            New Build (ULTRAlite) Added!!!
                                  
                    Current Builds
 
                            1. Simplicity
                            2. NetKlix
-                           3. Foxy
-                           3. Serenity Sports
-                           4. Serenity Ultralight
+                           3. Serenity
+                           4. ULTRAlite
