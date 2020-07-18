@@ -3,11 +3,12 @@
 
 
 
-            New Build (ULTRAlite) Added!!!
+            New Build (KODIonFIRE) Added!!!
                                  
                    Current Builds
 
-                           1. Simplicity
-                           2. NetKlix
-                           3. Serenity
-                           4. ULTRAlite
+                           1. Simplicity --- Widget Based Build   (Heavy)
+                           2. NetKlix    --- Netflix Style Build  (Heavy)
+                           3. KODIonFIRE --- A Fire TV Build      (Lite)
+                           4. Serenity   --- Seren Build          (Lite)
+                           5. RASlite    --- Raspberry Pi Build   (Lite)
