@@ -7,8 +7,8 @@
                                  
                    Current Builds
 
-                           1. Simplicity-----Widget Based Build------(Heavy)
-                           2. NetKlix--------Netflix Style Build-----(Heavy)
+                           1. Simplicity--------Widget Based Build------(Heavy)
+                           2. NetKlix------------Netflix Style Build-----(Heavy)
                            3. KODIonFIRE-----A Fire TV Build---------(Lite)
-                           4. Serenity-------Seren Build-------------(Lite)
-                           5. RASlite--------Raspberry Pi Build------(Lite)
+                           4. Serenity----------Seren Build-------------(Lite)
+                           5. RASlite-----------Raspberry Pi Build------(Lite)
