@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR dodgerblue]Repo[/COLOR][/B]" version="1.2" provider-name="Tonkapug">
+<addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR dodgerblue]Repo[/COLOR][/B]" version="1.3" provider-name="Tonkapug">
     <extension point="xbmc.addon.repository" name="[B]The[COLOR gray] 709[/COLOR][COLOR dodgerblue]Repo[/COLOR][/B]">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Tonkapug/tonkapug.github.io/master/zips/addons.xml</info>
