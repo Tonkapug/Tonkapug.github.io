@@ -24,22 +24,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.709pair" name="[B][COLOR=gray]709[/COLOR][/B]Pair" version="1.4" provider-name="JewBMX, Tonkapug">
-  <requires>
-    <import addon="xbmc.python" version="2.19.0"/>
-  </requires>
-  <extension point="xbmc.python.script" library="addon.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Real-Debrid and Trakt Pairing Utility</summary>
-    <description lang="en">Real-Debrid and Trakt Pairing</description>
-	<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <license>Free!!</license>
-  </extension>
-</addon>
-
 <addon id="plugin.program.709wizard" name="[COLOR grey][B]709[/B][/COLOR]Wizard" version="1.5" provider-name="drinferno, Tonkapug">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
@@ -70,7 +54,7 @@
     </extension>
 </addon>
 
-<addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR dodgerblue]Repo[/COLOR][/B]" version="1.4" provider-name="Tonkapug">
+<addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR dodgerblue]Repo[/COLOR][/B]" version="1.5" provider-name="Tonkapug">
     <extension point="xbmc.addon.repository" name="[B]The[COLOR gray] 709[/COLOR][COLOR dodgerblue]Repo[/COLOR][/B]">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Tonkapug/tonkapug.github.io/master/zips/addons.xml</info>
@@ -88,6 +72,42 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
+</addon>
+
+<addon id="script.709pair" name="[B][COLOR=gray]709[/COLOR][/B]Pair" version="1.0" provider-name="FTG, Tonkapug">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="pair.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Real-Debrid and Trakt Pairing Utility</summary>
+    <description lang="en">Real-Debrid and Trakt Pairing</description>
+    <disclaimer lang="en">-</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+
+<addon id="script.709tools" name="[B][COLOR=gray]709[/COLOR][/B]Tools" version="1.0" provider-name="FTG, Tonkapug">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="pair.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Real-Debrid and Trakt Pairing Utility</summary>
+    <description lang="en">Real-Debrid and Trakt Pairing</description>
+    <disclaimer lang="en">-</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
 </addon>
 
 <addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2019.05.10.3" provider-name="aenema">
