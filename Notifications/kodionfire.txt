@@ -1,0 +1,15 @@
+1
+|||
+
+            What Addons to Authorize:
+                                 
+                   Real-Debrid
+                           1. Seren
+                           2. Shadow
+                           3. Foxystreams
+                           4. Fen
+                           5. ResolveURL
+
+                   Trakt
+                           1. TMDB Helper
+                           2. OpenMeta
