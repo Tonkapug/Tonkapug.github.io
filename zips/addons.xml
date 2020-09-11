@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.709notify1" version="1.1"
+<addon id="plugin.program.709notify1" version="1.2"
        name="[COLOR gray][B]709[/B][/COLOR]Notify-KODIonFIRE" provider-name="Tonkapug">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
