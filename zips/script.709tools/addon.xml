@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.709tools" name="[B][COLOR=gray]709[/COLOR][/B]Tools" version="1.1" provider-name="FTG, Tonkapug">
+<addon id="script.709tools" name="[B][COLOR=gray]709[/COLOR][/B]Tools" version="1.2" provider-name="FTG, Tonkapug">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,8 +8,8 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en">Real-Debrid and Trakt Pairing Utility</summary>
-    <description lang="en">Real-Debrid and Trakt Pairing</description>
+    <summary lang="en">A maintenance addon with a list of Tools</summary>
+    <description lang="en">Maintenance - Kodi Tools</description>
     <disclaimer lang="en">-</disclaimer>
     <language></language>
     <platform>all</platform>
