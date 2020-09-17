@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.709wizard" name="[COLOR grey][B]709[/B][/COLOR]Wizard" version="1.6" provider-name="drinferno, Tonkapug">
+<addon id="plugin.program.709wizard" name="[COLOR grey][B]709[/B][/COLOR]Wizard" version="1.7" provider-name="drinferno, Tonkapug">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" />
@@ -20,8 +20,7 @@
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>https://github.com/Tonkapug</source>
         <news>
-	Current Version = v1.5
-         </news>
+	</news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.png</fanart>
