@@ -67,7 +67,7 @@
   </extension>
 </addon>
 
-<addon id="script.709pair-xretro" name="[B][COLOR=gray]709[/COLOR][/B]Pair" version="1.0" provider-name="FTG, Tonkapug">
+<addon id="script.709pair-xretro" name="[B][COLOR=gray]709[/COLOR][/B]Pair" version="1.1" provider-name="FTG, Tonkapug">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
