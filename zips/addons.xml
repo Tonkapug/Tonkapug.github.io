@@ -49,7 +49,7 @@
     </extension>
 </addon>
 
-<addon id="script.709pair" name="[B][COLOR=gray]709[/COLOR][/B]Pair" version="1.1" provider-name="FTG, Tonkapug">
+<addon id="script.709pair" name="[B][COLOR=gray]709[/COLOR][/B]Pair" version="1.0" provider-name="FTG, Tonkapug">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -83,22 +83,6 @@
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
-</addon>
-
-<addon id="script.709rdvpn" name="[B][COLOR=gray]709[/COLOR][/B]VPNcheck" version="1.1" provider-name="peno, Tonkapug">
-	<requires>
-		<import addon="xbmc.python" version="2.7.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Real-Debrid Whitelisted IP Check </summary>
-		<description lang="en">Checks if the your current VPN IP Address is whitelisted or blocked by Real-Debrid</description>
-		<license>GNU General Public License, v2</license>
-		<language></language>
-	</extension>
 </addon>
 
 <addon id="script.709tools" name="[B][COLOR=gray]709[/COLOR][/B]Tools" version="1.2" provider-name="FTG, Tonkapug">
