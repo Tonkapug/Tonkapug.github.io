@@ -14,7 +14,7 @@
 ### Instructions for installing this repository via the added source:
 
 <ul>
-    <li>Go to Kodi Add-Ons to open the Addon Browser, then select "Install from zip file"</li>
+    <li>Open Settings and go to Add-Ons, then choose "Install from zip file"</li>
     <li>From the available list of sources, select "709Repo", and install "repository.709-1.6.zip"</li>
 </ul>
 
@@ -24,7 +24,7 @@
 
 <ul>
     <li>Download <a href="repository.709-1.6.zip?file=path/<?=$row['repositoy.709-1.6.zip']?>">repository.709-1.6.zip</a></li>
-    <li>Go to Kodi Add-Ons to open the Addon Browser, then select "Install from zip file"</li>
+    <li>Open Settings and go to Add-Ons, then choose "Install from zip file"</li>
     <li>Navigate to where you saved repository.709-1.6.zip and select to install</li>
 </ul>
   
@@ -33,7 +33,7 @@
 ### Instructions for installing Add-ons:
 
 <ul>
-    <li>Open Settings and go to Add-Ons. Then select "Install from repository"</li>
+    <li>Open Settings and go to Add-Ons. Then choose "Install from repository"</li>
     <li>Select the "The 709Repo"</li>
     <li>Go into the "Program add-ons" section in the repo, and you'll find the 709 add-ons. From there, install the 709Wizard to access my builds.</li>
 </ul>
