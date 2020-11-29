@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.709tools" name="[B][COLOR=gray]709[/COLOR][/B]Tools" version="1.2" provider-name="FTG, Tonkapug">
+<addon id="script.709tools" name="[B][COLOR=gray]709[/COLOR][/B]Tools" version="1.3" provider-name="FTG, Tonkapug">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
