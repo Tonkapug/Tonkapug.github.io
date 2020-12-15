@@ -15,7 +15,7 @@
 
 <ul>
     <li>Open Settings and go to Add-Ons, then choose "Install from zip file"</li>
-    <li>From the available list of sources, select "709Repo", and install "repository.709-1.6.zip"</li>
+    <li>From the available list of sources, select "709Repo", and install "repository.709-1.7.zip"</li>
 </ul>
 
 
@@ -23,9 +23,9 @@
 ### Instructions for installing this repository without a source:
 
 <ul>
-    <li>Download <a href="repository.709-1.6.zip?file=path/<?=$row['repositoy.709-1.6.zip']?>">repository.709-1.6.zip</a></li>
+    <li>Download <a href="repository.709-1.7.zip?file=path/<?=$row['repositoy.709-1.7.zip']?>">repository.709-1.7.zip</a></li>
     <li>Open Settings and go to Add-Ons, then choose "Install from zip file"</li>
-    <li>Navigate to where you saved repository.709-1.6.zip and select to install</li>
+    <li>Navigate to where you saved repository.709-1.7.zip and select to install</li>
 </ul>
   
   
