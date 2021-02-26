@@ -30,8 +30,8 @@
 </addon>
 
 <addon id="plugin.video.themoviedb.helper"
-version="4.2.16x"
-name="TheMovieDb Helper"
+version="50.4.2.16"
+name="TheMovieDb Helper MOD"
 provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="2.26.0"/>
@@ -95,7 +95,7 @@ provider-name="jurialmunkey">
 </extension>
 </addon>
 
-<addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR dodgerblue]Repo[/COLOR][/B]" version="1.6" provider-name="Tonkapug">
+<addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR dodgerblue]Repo[/COLOR][/B]" version="1.7" provider-name="Tonkapug">
     <extension point="xbmc.addon.repository" name="[B]The[COLOR gray] 709[/COLOR][COLOR dodgerblue]Repo[/COLOR][/B]">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Tonkapug/tonkapug.github.io/master/zips/addons.xml</info>
@@ -138,24 +138,6 @@ provider-name="jurialmunkey">
   </extension>
 </addon>
 
-<addon id="script.709pair" name="[B][COLOR=gray]709[/COLOR][/B]Pair" version="1.2" provider-name="FTG, Tonkapug">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="pair.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Real-Debrid and Trakt Pairing Utility</summary>
-    <description lang="en">Real-Debrid and Trakt Pairing</description>
-    <disclaimer lang="en">-</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-  </extension>
-</addon>
-
 <addon id="script.709rdvpn" name="[B][COLOR=gray]709[/COLOR][/B]VPNcheck" version="1.0" provider-name="peno, Tonkapug">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
@@ -170,24 +152,6 @@ provider-name="jurialmunkey">
 		<license>GNU General Public License, v2</license>
 		<language></language>
 	</extension>
-</addon>
-
-<addon id="script.709tools" name="[B][COLOR=gray]709[/COLOR][/B]Tools" version="1.4" provider-name="FTG, Tonkapug">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="pair.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">A maintenance addon with a list of Tools</summary>
-    <description lang="en">Maintenance - Kodi Tools</description>
-    <disclaimer lang="en">-</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-  </extension>
 </addon>
 
 <addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2019.05.10.3" provider-name="aenema">
@@ -245,57 +209,6 @@ provider-name="jurialmunkey">
     <summary lang="en">ARNU Box Speed Tester</summary>
     <description lang="en">ARNU Box Speed Tester powered by speedtest.net will give you accurate Internet speed/ping test results. \n Brought to you by http://www.arnubox.com</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="skin.xretro"
-  version="1.0"
-  name="XRetro"
-  provider-name="Helly1206, Tonkapug">
-  <requires>
-    <import addon="xbmc.gui" version="5.14.0"/>
-	  <import addon="script.favourites" version="7.1.1"/>
-	  <import addon="service.skin.widgets" version="0.0.33"/>
-	  <import addon="service.library.data.provider" version="0.3.2"/>
-	  <import addon="script.randomandlastitems" version="2.2.2"/>
-  </requires>
-  <extension
-    point="xbmc.gui.skin"
-    debugging="false"
-    effectslowdown="1.0">
-    <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
-    <summary lang="en_US">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
-    <summary lang="nl">Uitgebreide MOD van Confluence skin origineel door Jezz_X en CCM door Mudislander.</summary>
-    <description lang="en">Xonfluence is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
-    <description lang="en_US">Xonfluence is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
-    <description lang="nl">Xonfluence is een MOD van Confluence om een grotere aanpassingsmogelijkheid te geven ten opzichten van de standaard skin (gebaseerd op Mudislander's CCM).</description>
-    <disclaimer lang="en">You break it - You get to keep the pieces</disclaimer>
-    <disclaimer lang="en_US">You break it - You get to keep the pieces</disclaimer>
-    <disclaimer lang="nl">Wie zijn billen brandt - moet op de blaren zitten</disclaimer>
-    <platform>all</platform>
-	  <license>GNU General Public License version 2</license>
-	  <forum>https://forum.kodi.tv/showthread.php?tid=315391</forum>
-	  <website></website>
-	  <email></email>
-	  <source>https://github.com/Helly1206/skin.xonfluence</source>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.jpg</fanart>
-	    <screenshot>resources/screenshot-01.jpg</screenshot>
-	    <screenshot>resources/screenshot-02.jpg</screenshot>
-	    <screenshot>resources/screenshot-03.jpg</screenshot>
-	    <screenshot>resources/screenshot-04.jpg</screenshot>
-	    <screenshot>resources/screenshot-05.jpg</screenshot>
-	    <screenshot>resources/screenshot-06.jpg</screenshot>
-	    <screenshot>resources/screenshot-07.jpg</screenshot>
-	    <screenshot>resources/screenshot-08.jpg</screenshot>
-	    <screenshot>resources/screenshot-09.jpg</screenshot>
-    </assets>
-    <news>See changelog for latest changes</news>
   </extension>
 </addon>
 </addons>

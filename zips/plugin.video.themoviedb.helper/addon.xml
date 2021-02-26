@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.themoviedb.helper"
-version="4.2.16x"
-name="TheMovieDb Helper"
+version="50.4.2.16"
+name="TheMovieDb Helper MOD"
 provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="2.26.0"/>
