@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.709rdvpn" name="[B][COLOR=gray]709[/COLOR][/B]VPNcheck" version="1.0" provider-name="peno, Zaxxon709">
+<addon id="script.709rdvpn" name="[B][COLOR=gray]709[/COLOR][/B]VPNcheck" version="1.0" provider-name="peno, Tonkapug">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
 	</requires>
